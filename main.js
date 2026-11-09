@@ -135,7 +135,7 @@ function download() {
   }, 'image/png');
 }
 
-function bindEvents() {
+function bindEvents() { 
   els.picker.addEventListener('input', (e) => setColor(e.target.value));
   els.hex.addEventListener('input', (e) => {
     let value = e.target.value.trim();
